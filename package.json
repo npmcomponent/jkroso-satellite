@@ -1,25 +1,21 @@
 {
-  "name": "satellite",
-  "version": "0.1.3",
+  "name": "jkroso-satellite",
   "description": "Position a container around the edge of another",
+  "version": "0.1.3",
+  "keywords": [
+    "tip"
+  ],
   "main": "src/index.js",
+  "styles": [
+    "src/satellite.css"
+  ],
   "dependencies": {
-    "css": "https://github.com/jkroso/css/tarball/patch-1",
-    "classes": "https://github.com/jkroso/classes/tarball/patch-1",
-    "dom-emitter": "https://github.com/jkroso/dom-emitter/tarball/master",
-    "domify": "https://github.com/jkroso/domify/tarball/master",
-    "viewport": "https://github.com/jkroso/viewport/tarball/master",
-    "position": "https://github.com/jkroso/position/tarball/master"
+    "jkroso-dom-emitter": "git://github.com/npmcomponent/jkroso-dom-emitter.git",
+    "jkroso-position": "git://github.com/npmcomponent/jkroso-position.git",
+    "jkroso-viewport": "git://github.com/npmcomponent/jkroso-viewport.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-css": "git://github.com/npmcomponent/component-css.git"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jkroso/satelite.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jkroso/satelite/issues"
-  },
-  "keywords": ["tip"],
-  "author": "Jakeb Rosoman",
   "license": "MIT"
 }

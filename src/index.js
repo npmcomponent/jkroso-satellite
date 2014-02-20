@@ -1,12 +1,12 @@
 
-var DomEmitter = require('dom-emitter')
-  , position = require('position')
+var DomEmitter = require('jkroso-dom-emitter')
+  , position = require('jkroso-position')
   , container = position.container
-  , viewPort = require('viewport')
-  , classes = require('classes')
+  , viewPort = require('jkroso-viewport')
+  , classes = require('component-classes')
   , tmpl = require('./template')
-  , domify = require('domify')
-  , css = require('css')
+  , domify = require('component-domify')
+  , css = require('component-css')
 
 module.exports = Satellite
 

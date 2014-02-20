@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jkroso/satellite](http://github.com/jkroso/satellite). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jkroso-satellite`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # satellite
 
 Position a container around the edge of another. The screenshot below shows all its positioning options. I have added basic styling in the screenshot to make the satellites visible. However out of the box it comes with no styling opinions. This project is based off component/tip which I found to be widely useful outside of tooltips. This is an extraction of the core functionality from that project, enhanced to suit my more general use cases. For an example use case [see](jkroso.github.com/contextmenu)
